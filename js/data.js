@@ -5,7 +5,7 @@ const feed = [
     //     author:{
     //         name: "Vardenis",
     //         surname: "Pavardenis",
-    //         img: "avasdvasd.jpg",
+    //         img: "avasdvasd.png",
     //         link:"#",
     //     },
     //     postTime: 1549105351356,
@@ -20,9 +20,9 @@ const feed = [
     // },
     {
         author:{
-            name: "Vardenis",
-            surname: "Pavardenis",
-            img: "avasdvasd.jpg",
+            name: "Vardenis1",
+            surname: "Pavardenis1",
+            img: "face.png",
             link:"#",
         },
         postTime: 1549105351356,
@@ -32,9 +32,9 @@ const feed = [
     },
     {
         author:{
-            name: "Vardenis",
-            surname: "Pavardenis",
-            img: "avasdvasd.jpg",
+            name: "Vardenis2",
+            surname: "Pavardenis2",
+            img: "face.png",
             link:"#",
         },
         postTime: 1549105351356,
@@ -44,96 +44,96 @@ const feed = [
     },
     {
         author:{
-            name: "Vardenis",
-            surname: "Pavardenis",
-            img: "avasdvasd.jpg",
+            name: "Vardenis3",
+            surname: "Pavardenis3",
+            img: "face.png",
             link:"#",
         },
         postTime: 1549105351356,
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.jpg",
+                "pic1.png",
             ],
         }
     },
     {
         author:{
-            name: "Vardenis",
-            surname: "Pavardenis",
-            img: "avasdvasd.jpg",
+            name: "Vardenis4",
+            surname: "Pavardenis4",
+            img: "face.png",
             link:"#",
         },
         postTime: 1549105351356,
         content: {
             text: "adsvav ad fsvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.jpg",
-                "pic2.jpg",
+                "pic1.png",
+                "pic2.png",
             ],
         }
     },
     {
         author:{
-            name: "Vardenis",
-            surname: "Pavardenis",
-            img: "avasdvasd.jpg",
+            name: "Vardenis5",
+            surname: "Pavardenis5",
+            img: "face.png",
             link:"#",
         },
         postTime: 1549105351356,
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.jpg",
-                "pic2.jpg",
-                "pic3.jpg"
+                "pic1.png",
+                "pic2.png",
+                "pic3.png"
             ],
         }
     },
     {
         author:{
-            name: "Vardenis",
-            surname: "Pavardenis",
-            img: "avasdvasd.jpg",
+            name: "Vardenis6",
+            surname: "Pavardenis6",
+            img: "face.png",
             link:"#",
         },
         postTime: 1549105351356,
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.jpg",
-                "pic2.jpg",
-                "pic3.jpg",
-                "pic4.jpg",
+                "pic1.png",
+                "pic2.png",
+                "pic3.png",
+                "pic4.png",
             ],
         }
     },
     {
         author:{
-            name: "Vardenis",
-            surname: "Pavardenis",
-            img: "avasdvasd.jpg",
+            name: "Vardenis7",
+            surname: "Pavardenis7",
+            img: "face.png",
             link:"#",
         },
         postTime: 1549105351356,
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.jpg",
-                "pic2.jpg",
-                "pic3.jpg",
-                "pic4.jpg",
-                "pic5.jpg",
-                "pic6.jpg",
-                "pic7.jpg",
+                "pic1.png",
+                "pic2.png",
+                "pic3.png",
+                "pic4.png",
+                "pic5.png",
+                "pic6.png",
+                "pic7.png",
             ],
         }
     },
     {
         author:{
-            name: "Vardenis",
-            surname: "Pavardenis",
-            img: "avasdvasd.jpg",
+            name: "Vardenis8",
+            surname: "Pavardenis8",
+            img: "face.png",
             link:"#",
         },
         postTime: 1549105351356,

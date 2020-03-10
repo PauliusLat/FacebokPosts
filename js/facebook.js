@@ -17,17 +17,20 @@ function renderPost(data) {
     console.log(data);
 
     let HTMLas = `<div class="post">
-                    ${renderPostHeader(data.author, data.time)}
+                    ${renderPostHeader(data.author, data.postTime)}
                     ${renderPostContent(data.content)}
                     ${renderPostFooter()}
                 </div>`;
-
     return HTMLas;
 }
 
 function renderPostHeader(author, time){
     let HTMLas = ``;
-    HTMLas = `<div class="header">HEADER</div>`;
+    HTMLas = `<div class="header">
+                        <img src="./img/${author.img}" alt="face">
+                        <h1>${author.name} ${author.surname}</h1>
+                        <p>${time}</p>
+                </div>`;
     return HTMLas;
 }
 function renderPostContent(content){
