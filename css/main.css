@@ -1,0 +1,55 @@
+header{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+.container{
+    display: inline-block;
+    width: 100%;
+    height: calc(100vh - 40px);
+    margin-top: 40px;
+    background-color: #ECEEF0;
+ 
+}
+    aside{
+        display: inline-block;
+        float: left;
+        width: 100px;
+        height: 100%;
+        background-color: antiquewhite;
+    }
+
+    .content{
+        display: inline-block;
+        width: calc(100% - 200px);
+        height: 100%;
+        float: left;
+
+
+    }
+        .content > .feed{
+            display: inline-block;
+            height: 100%;
+            width: (100% - 100px) ;
+            float: left;
+            overflow: auto;
+
+        }
+        .content > .ads{
+            display: inline-block;
+            height: 100%;
+            width: 100px;
+            float: left;
+        }
+    .mesenger{
+        display: inline-block;
+        width: 100px;
+        height: 100%;
+        float: left;
+    }
+
