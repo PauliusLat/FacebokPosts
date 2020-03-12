@@ -28,8 +28,7 @@ header{
         width: calc(100% - 200px);
         height: 100%;
         float: left;
-
-
+        
     }
         .content > .feed{
             display: inline-block;

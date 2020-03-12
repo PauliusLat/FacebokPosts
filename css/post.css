@@ -1,43 +1,141 @@
 .post{
     display: inline-block;
     width: 100%;
+    padding: 10px;
     margin: 10px 0;
     background-color: #fff;
-    border: 1px solid #999;
+    border: 1px solid #ccc;
     border-radius: 4px;
 }
     .post > .header{
-        display: block;
-        position: relative;
+        display: inline-block;
         width: 100%;
     }
         .post > .header > img{
-            display: block;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            float: left;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+        }
+        .post > .header > .texts {
+            display: inline-block;
+            width: calc(100% - 90px);
+            padding: 0 0 0 20px;
             float: left;
         }
-        .post > .header > h1{
-            display: block;
-            position: absolute;
-            left: 50px;
-            top: 2px;  
-            color: var(--main-color);
-            font-size: 18px;
-            font-weight: 400;
-        }
-        .post > .header > p{
-            display: block;
-            position: absolute;
-            left: 50px;
-            top: 26px;
-            font-size: 12px;  
-            color: #999;     
+            .post > .header .title {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 5px;
+            }
+                .post > .header a{
+                    display: inline-block;
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+            .post > .header .time{
+                display: inline-block;
+                width: 100%;
+                font-size: 12px;
+                line-height: 18px;
+                color: #999;
+            }
+        .post > .header > .fa{
+            display: inline-block;
+            width: 40px;
+            padding: 10px;
+            margin: -10px -10px 0 0;
+            float: right;
+            text-align: center  ;
+            color: #999;   
+
         }
     
     .post > .content{
         display: inline-block;
-        width: 100%;;
+        width: 100%;
     }
+        .post > .content > p{
+
+        }
+        .post > .content > img{
+            
+        }
+
     .post > .footer{
         display: inline-block;
         width: 100%;
+        font-weight: 300;
+        color: #444;
     }
+        .post > .footer > .row{
+            display: inline-block;
+            width: 100%;
+            height: 50%;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+        } 
+            .post > .footer > .row > .col{
+                display: inline-block;
+                width: 50%;
+                float: left;
+                text-align: center;
+                font-size: 18px;
+                line-height: 30px;
+
+
+            }
+                .post > .footer > .row i{
+                    display: inline-block;
+                    line-height: inherit;
+
+                }
+                .post > .footer > .row .text{
+                    display: inline-block;
+                
+                }
+            .post > .footer  img{
+                display: inline-block;
+                width: 36px;
+                height: 36px;
+                float: left;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 18px;
+            }
+            .post > .footer .comment-form{ 
+                display: inline-block;
+                width: calc(100% - 50px);
+                float: right;
+                position: relative;
+            }
+                .post .comment-form > textarea{
+                    display: inline-block;
+                    width: 100%;
+                    resize: vertical;
+                    min-height: 20px;
+                    max-height: 160px;
+                    border-radius: 18px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding: 5px 10px;
+
+                }
+                .post .comment-form > .actions{
+                    display: inline-block;
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                }
+                    .post .comment-form > i{
+                        display: inline-block;
+                        float: left;
+                        padding: 0 5px;
+                        line-height: 15px;
+                        font-size: 12px;
+                    }
+                
+

@@ -27,7 +27,7 @@ const feed = [
         },
         postTime: 1549105351356,
         content: {
-            text: "adsvav ad fvadf vav adfva dfva f avdvfadfvad avfvadf vad",
+            text: "Lorem ipsum dolor, sit amet consectetur adipis reiciendis. Dignissimos minima ratione tenetur. Delectus sint obcaecati laboriosam eum exercitationem?",
         }
     },
     {
@@ -39,7 +39,7 @@ const feed = [
         },
         postTime: 1549105351356,
         content: {
-            text: "adsvav ad fvadf vav adfva dfvsvav ad fdfvsdfvs fvsdfvdfv vadf vav adfva dfva f avdvfadfvadfvad avdfvavaa fvadf vad",
+            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam omnis autem voluptatum nemo dolorem aliquid, obcaecati commodi asperiores rem reiciendis. Dignissimos minima ratione tenetur. Delectus sint obcaecati laboriosam eum exercitationem?a f avdvfadfvadfvad avdfvavaa fvadf vad",
         }
     },
     {
@@ -53,7 +53,7 @@ const feed = [
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.png",
+                "top.png",
             ],
         }
     },
@@ -68,8 +68,8 @@ const feed = [
         content: {
             text: "adsvav ad fsvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.png",
-                "pic2.png",
+                "pic.png",
+                // "pic.png",
             ],
         }
     },
@@ -84,9 +84,9 @@ const feed = [
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.png",
-                "pic2.png",
-                "pic3.png"
+                "top.png",
+                "pic.png",
+                "pic.png"
             ],
         }
     },
