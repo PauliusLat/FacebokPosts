@@ -5,7 +5,7 @@ const feed = [
     //     author:{
     //         name: "Vardenis",
     //         surname: "Pavardenis",
-    //         img: "avasdvasd.png",
+    //         img: "avasdvasd.jpg",
     //         link:"#",
     //     },
     //     postTime: 1549105351356,
@@ -53,7 +53,7 @@ const feed = [
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "top.png",
+                "pic1.jpg",
             ],
         }
     },
@@ -68,8 +68,8 @@ const feed = [
         content: {
             text: "adsvav ad fsvadf vav adfva dfva fvadf vad",
             img: [
-                "pic.png",
-                // "pic.png",
+                "pic1.jpg",
+                "pic2.jpg",
             ],
         }
     },
@@ -84,9 +84,9 @@ const feed = [
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "top.png",
-                "pic.png",
-                "pic.png"
+                "pic1.jpg",
+                "pic2.jpg",
+                "pic3.jpg"
             ],
         }
     },
@@ -101,10 +101,10 @@ const feed = [
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.png",
-                "pic2.png",
-                "pic3.png",
-                "pic4.png",
+                "pic1.jpg",
+                "pic2.jpg",
+                "pic3.jpg",
+                "pic4.jpg",
             ],
         }
     },
@@ -119,13 +119,13 @@ const feed = [
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
-                "pic1.png",
-                "pic2.png",
-                "pic3.png",
-                "pic4.png",
-                "pic5.png",
-                "pic6.png",
-                "pic7.png",
+                "pic1.jpg",
+                "pic2.jpg",
+                "pic3.jpg",
+                "pic4.jpg",
+                "pic5.jpg",
+                "pic6.jpg",
+                "pic7.jpg",
             ],
         }
     },

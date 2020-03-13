@@ -84,15 +84,15 @@ function renderPostContentGallery(images) {
     galleryClass = imgCounter;
     if(imgCounter>4){
         galleryClass = 4;
-        moreHTML = `<div class="galleryClass">+${imgCounter - 4 }</div>`;
+        moreHTML = `<div class="more">+${imgCounter - 4 }</div>`;
     }
-    HTMLas = `<div class="galerry gallery-${galleryClass}">
+    HTMLas = `<div class="gallery gallery-${galleryClass}">
                    ${imgHTML}
                    ${moreHTML} 
             </div>`;
     
     if (imgCounter === 0) {
-        return '';
+        return '';  
     }
 
     return HTMLas;
