@@ -43,7 +43,7 @@ function renderPostContent(content){
     let HTMLas = `<div class="content">`;
     
     if (content.text) {
-        HTMLas += renderPostContentText(content.text, content.textBackground);
+        HTMLas += renderPostContentText(content);
     }
     if (content.img) {
         HTMLas += renderPostContentGallery(content.img);
@@ -52,9 +52,36 @@ function renderPostContent(content){
     HTMLas += `</div>`;
     return HTMLas;
 }
-function renderPostContentText (text, background) {
+function renderPostContentText (content) {
     let HTMLas = ``;
-    HTMLas = `<p>${text}</p>`;
+    let text = content.text;
+    const textMax = 250;
+    const textMin = 30;
+    let style =``;
+
+    if(text.length < textMin){
+        style += `largeFontText`;
+    }
+    if(content.background){
+        if(!content.img || content.img.length === 0){
+            style += ` `+content.background;
+        }
+    }
+    if(text.length >= textMax){
+        text = text.substring(0, textMax);
+        let skip = 0;
+        for(let i = textMax-1; i>=0; i--){
+            if(text[i]===` `){
+                break;
+            }
+            skip++;
+        }
+        text = text.substring(0, textMax-1-skip);
+        text += `<span class="more"> ... See More</span>`;
+    }
+
+
+    HTMLas = `<p class="${style}" data-fulltekstas="${content.text}">${text}</p>`;
     return HTMLas;
 }
 
@@ -127,3 +154,14 @@ function renderPostFooter(){
 }
 
 renderFeed( feed);
+
+const readMores = document.querySelectorAll(`.post p > .more`);
+
+for(let i = 0; i<readMores.length; i++){
+    readMores[i].addEventListener(`click`, readMoreClick);    
+}
+function readMoreClick( event ) {
+    const p =  event.target.closest(`p`);
+   
+    return p.innerText = p.dataset.fulltekstas;
+}

@@ -65,16 +65,36 @@
     }
         .post > .content > p{
             display: inline-block;
-            width: 100%;;
-           
+            width: 100%;
         }
+            .post > .content > p.largeFontText{
+                padding: 20px;
+                font-size: 28px;
+                line-height: 40px;
+            }
+            .post > .content > p.blue{
+                padding: 60px 20px;
+                background-color: blue;
+                color: #fffc;
+                text-align: center;
+            }
+            .post > .content > p.orange{
+                padding: 60px 20px;
+                background-color: orange;
+                color: #555;
+                text-align: center;
+            }
+            .post > .content > p .more{
+                color: var(--main-color);
+                font-weight: 500;
+            }
+
         .post > .content > p + .gallery {
             margin-top: 20px;
         }
         .post > .content > .gallery {
             display: inline-block;
             width: 100%;
-            /* margin: 0 0 -10px -10px; */
             height: 300px;
             overflow: hidden;
             position: relative;
@@ -121,9 +141,10 @@
             bottom: 0;
             right: 0;
             background-color: #222c;
-            color: #fff4;
+            color: #fff5;
             text-align: center;
-            font-size: 50px;
+            font-size: 60px;
+            font-weight: 500;
             line-height: 150px;
             border-radius: 20px;
         }
@@ -148,17 +169,13 @@
                 text-align: center;
                 font-size: 18px;
                 line-height: 30px;
-
-
             }
                 .post > .footer > .row i{
                     display: inline-block;
                     line-height: inherit;
-
                 }
                 .post > .footer > .row .text{
-                    display: inline-block;
-                
+                    display: inline-block; 
                 }
             .post > .footer  img{
                 display: inline-block;
@@ -185,7 +202,6 @@
                     font-size: 14px;
                     line-height: 20px;
                     padding: 5px 10px;
-
                 }
                 .post .comment-form > .actions{
                     display: inline-block;

@@ -141,6 +141,32 @@ const feed = [
             text: "adsvav ad fvadf vav adfva",
             
         }
+    },
+    {
+        author:{
+            name: "Vardenis8",
+            surname: "Pavardenis8",
+            img: "face.png",
+            link:"#",
+        },
+        postTime: 1549105351356,
+        content: {
+            text: "adsvav ad fvadf vav adfva",
+            background: "blue",
+        }
+    },
+    {
+        author:{
+            name: "Vardenis8",
+            surname: "Pavardenis8",
+            img: "face.png",
+            link:"#",
+        },
+        postTime: 1549105351356,
+        content: {
+            text: "adavava vafva vev   f vav adfva",
+            background: "orange",
+        }
     }
 ];
 
