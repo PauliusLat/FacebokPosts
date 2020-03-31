@@ -32,7 +32,7 @@ function renderPostHeader(author, time){
                             <div class="title">
                                 <a href="${author.link}">${author.name} ${author.surname} </a>
                             </div>
-                            <div class="time"> ${time}</div>
+                            <div class="time"> ${timeFormat(time)}</div>
                         </div>
                         <i class="fa fa-ellipsis-h"></i>
                 </div>`;
@@ -152,8 +152,44 @@ function renderPostFooter(){
             </div>`;
 
 }
+function timeFormat(time) {
+    const timeStamp = Date.now() - time;
+    let sec = Math.round(timeStamp / 1000);
+    if (sec<15){
+        return "Just now";
+    }
+    if (sec<60) {
+        return sec + " sec.";
+    }
+    let min = Math.round(sec / 60);
+    if (min<60){
+        return min+" min."
+    }
+    let hours = Math.floor(min / 60);
+    if (hours<24){
+        return hours+" h."
+    }
+    let days = Math.floor(hours / 24);
+    if (days<7){
+        return days+" days."
+    }
+    let weeks = Math.floor(days / 7);
+    if (days<30.4){
+        return weeks+" weeks."
+    }
+    let month = Math.floor(days / 30.4);
+    if (month<12){
+        return month+" month."
+    }
+    let year = Math.floor(days / 365);
+        return year+" years."
+    
+}
 
 renderFeed( feed);
+
+
+
 
 const readMores = document.querySelectorAll(`.post p > .more`);
 

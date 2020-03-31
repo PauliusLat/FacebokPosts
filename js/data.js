@@ -25,7 +25,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1585656891875,
         content: {
             text: "Lorem ipsum dolor, sit amet consectetur adipis reiciendis. Dignissimos minima ratione tenetur. Delectus sint obcaecati laboriosam eum exercitationem?",
         }
@@ -37,7 +37,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1585656784000,
         content: {
             text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam omnis autem voluptatum nemo dolorem aliquid, obcaecati commodi asperiores rem reiciendis. Dignissimos minima ratione tenetur. Delectus sint obcaecati laboriosam eum exercitationem?a f avdvfadfvadfvad avdfvavaa fvadf vad",
         }
@@ -49,7 +49,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1585656700009,
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
@@ -64,7 +64,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1585606704009,
         content: {
             text: "adsvav ad fsvadf vav adfva dfva fvadf vad",
             img: [
@@ -80,7 +80,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1585606704009,
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
@@ -97,7 +97,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1585656704009,
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
@@ -115,7 +115,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1540105351356,
         content: {
             text: "adsvav ad fvadf vav adfva dfva fvadf vad",
             img: [
@@ -136,7 +136,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1542105351356,
         content: {
             text: "adsvav ad fvadf vav adfva",
             
@@ -149,7 +149,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1509105351356,
         content: {
             text: "adsvav ad fvadf vav adfva",
             background: "blue",
@@ -162,7 +162,7 @@ const feed = [
             img: "face.png",
             link:"#",
         },
-        postTime: 1549105351356,
+        postTime: 1049105351356,
         content: {
             text: "adavava vafva vev   f vav adfva",
             background: "orange",
